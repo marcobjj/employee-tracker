@@ -13,10 +13,6 @@
  
 * [Usage](#usage)  
  
-* [Contributing](#contributing)  
- 
-* [Tests](#tests)  
- 
 * [Installation](#installation)  
  
 * [Questions](#questions)  
@@ -36,15 +32,6 @@ A database editor and generator for employees, departments and roles.
 Watch the video tutorial below:  
 [Video tutorial](https://www.youtube.com/watch?v=PgNa4i3fbeY)  
 
-## Contributing
-
-
-None  
-
-## Tests
-
-
-None  
 
 ## Installation
 

@@ -14,9 +14,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "migrate": " mysql -u root --password='manhoefKO' track < db/schema.sql",
-    "seed": "mysql  -u root --password='manhoefKO' track < db/seeds.sql",
-    "db": "mysql  -u root --password='manhoefKO' track"
+    "migrate": " mysql -u root -p track < db/schema.sql",
+    "seed": "mysql  -u root -p track < db/seeds.sql",
+    "db": "mysql  -u root -p track"
   },
   "repository": {
     "type": "git",

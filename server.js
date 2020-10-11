@@ -132,7 +132,7 @@ const updateEmployeeRole = () => {
             updateRole(role_id,employee_id)
             .then(result => {
 
-              console.log(result);
+
               init();
             })
           
@@ -260,8 +260,6 @@ const newEmployee = () => {
           managerArray.splice(0,0,"No One");
           managerObject["No One"] = null;
 
-          // console.log(managerArray,managerObject);
-
           const employeeQuestions = [{
 
             type: 'input',
@@ -293,15 +291,12 @@ const newEmployee = () => {
           promptUser(employeeQuestions)
             .then(data => {
 
-              // console.log(data)
-
               const role_id = rolesObject[data.role];
               const manager_id = managerObject[data.manager];
 
               addEmployee(data.first_name, data.last_name, role_id, manager_id)
                 .then(result => {
 
-                  // console.log(result);
                   init();
 
                 })
@@ -388,8 +383,7 @@ const init = () => {
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  database: 'track',
-  password: 'manhoefKO'
+  database: 'track'
 });
 
 // general query function
@@ -473,7 +467,7 @@ const updateRole = (newRoleID, employeeID) => {
 
   return new Promise((resolve, reject) => {
   const query = "UPDATE employee SET role_id = ? WHERE id = ?";
-  
+
   connection.query(query, [newRoleID, employeeID],
     function (err, results) {
       if(err) reject(err);

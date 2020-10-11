@@ -44,7 +44,9 @@ Watch the video tutorial below:
 
 
 This application requires node.js and node packet manager (npm) installed on your machine. Clone the repository using git, go to the root folder and run the commands "npm i", and then "npm migrate".  
- ``` $ npm i         $ npm migrate ```   
+ ``` $ npm i         ```
+ 
+ ```$ npm migrate    ```   
 
 ## Questions
 

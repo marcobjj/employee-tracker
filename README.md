@@ -11,7 +11,7 @@
  
 * [Description](#description)  
 
-* [Language](#language) 
+* [Languages](#languages) 
  
 * [Usage](#usage)  
  

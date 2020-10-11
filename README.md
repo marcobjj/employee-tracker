@@ -10,6 +10,8 @@
 
  
 * [Description](#description)  
+
+* [Language](#language) 
  
 * [Usage](#usage)  
  
@@ -25,6 +27,14 @@
 
 
 A database editor and generator for employees, departments and roles.  
+
+
+## Languages
+
+
+Javascript (node.js, node package manager, inquirer package, mysql2 package, ctable package);
+MySQL
+
 
 ## Usage
 
